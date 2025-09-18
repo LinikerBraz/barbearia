@@ -37,7 +37,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            background: "url(/public/img1.jpeg)",
+            backgroundImage: "url(/img1.jpeg)",
             backgroundRepeat: 'no-repeat',
             backgroundPosition: "center",
             backgroundSize: "cover"
