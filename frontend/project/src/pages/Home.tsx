@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Star, Calendar, Award, Users } from 'lucide-react';
+import { url } from 'inspector';
 
 const Home = () => {
   const services = [
@@ -36,18 +37,20 @@ const Home = () => {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url(https://images.pexels.com/photos/3065207/pexels-photo-3065207.jpeg?auto=compress&cs=tinysrgb&w=1600)'
+            background: "url(/public/img1.jpeg)",
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: "center",
+            backgroundSize: "cover"
           }}
         ></div>
         <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
+          <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6"style={{
+            textShadow: '0 2px 6px rgba(0, 0, 0, 0.7)'
+          }}>
             IGOOR CORTTES
             <span className="block text-yellow-500">BARBER SHOP</span>
           </h1>
-          <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-            Transforme seu visual com nossos profissionais especializados. 
-            Cortes modernos, tratamentos exclusivos e atendimento premium.
-          </p>
+          
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/agendamento"
