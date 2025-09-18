@@ -24,7 +24,7 @@ const Home = () => {
 
   const stats = [
     { icon: Users, value: '5000+', label: 'Clientes Satisfeitos' },
-    { icon: Award, value: '10+', label: 'Anos de Experiência' },
+    { icon: Award, value: '5+', label: 'Anos de Experiência' },
     { icon: Star, value: '4.9', label: 'Avaliação Média' },
     { icon: Calendar, value: '1000+', label: 'Cortes por Mês' }
   ];
