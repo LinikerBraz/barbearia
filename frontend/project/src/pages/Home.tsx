@@ -11,22 +11,22 @@ const Home = () => {
       image: 'https://images.pexels.com/photos/3998365/pexels-photo-3998365.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
-      title: 'Cortes Femininos',
+      title: 'Coloração',
       description: 'Transformação completa com cortes personalizados',
       image: 'https://images.pexels.com/photos/3065209/pexels-photo-3065209.jpeg?auto=compress&cs=tinysrgb&w=400'
     },
     {
-      title: 'Coloração',
+      title: 'Degradê',
       description: 'Técnicas de coloração profissional e tendências',
       image: 'https://images.pexels.com/photos/3993449/pexels-photo-3993449.jpeg?auto=compress&cs=tinysrgb&w=400'
     }
   ];
 
   const stats = [
-    { icon: Users, value: '5000+', label: 'Clientes Satisfeitos' },
+    { icon: Users, value: '1000+', label: 'Clientes Satisfeitos' },
     { icon: Award, value: '5+', label: 'Anos de Experiência' },
     { icon: Star, value: '4.9', label: 'Avaliação Média' },
-    { icon: Calendar, value: '1000+', label: 'Cortes por Mês' }
+    { icon: Calendar, value: '300+', label: 'Cortes por Mês' }
   ];
 
   return (
